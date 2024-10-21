@@ -1,55 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import PostInputBox from '../components/PostInputBox';
+import PostInputBox from './PostInputBox';
 
 const meta: Meta<typeof PostInputBox> = {
   title: 'Components/PostInputBox',
   component: PostInputBox,
-  tags: ['autodocs'],
 };
 
 export default meta;
 type Story = StoryObj<typeof PostInputBox>;
-
-export const Default: Story = {
-  args: {},
-};
-
-export const WithInitialContent: Story = {
-  args: {},
-  decorators: [
-    (Story) => (
-      <div>
-        <p>Try typing a link (e.g., https://example.com), a mention (@username), or a hashtag (#topic):</p>
-        <Story />
-      </div>
-    ),
-  ],
-};
-
-export const WithEmoji: Story = {
-  args: {},
-  decorators: [
-    (Story) => (
-      <div>
-        <p>Try typing an emoji (e.g., 😊 or 🚀):</p>
-        <Story />
-      </div>
-    ),
-  ],
-};
-
-export const WithAutocomplete: Story = {
-  args: {},
-  decorators: [
-    (Story) => (
-      <div>
-        <p>Try typing @ to see user suggestions (e.g., @John, @Mary):</p>
-        <p>Try typing # to see hashtag suggestions (e.g., #react, #javascript):</p>
-        <Story />
-      </div>
-    ),
-  ],
-};
 
 export const FullFeaturedExample: Story = {
   args: {},
