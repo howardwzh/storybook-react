@@ -10,7 +10,8 @@
 
 # production
 /build
-/storybook-react
+storybook-static
+deploy_temp
 
 # misc
 .DS_Store
