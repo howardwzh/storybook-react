@@ -78,4 +78,4 @@ rm -rf "$TEMP_DIR"
 echo "🧹 Temporary directory cleaned up."
 
 # 打印成功日志
-echo "✅ Successfully built and deployed '$SOURCE_DIR' to '$TARGET_REPO_URL' branch '$TARGET_BRANCH'."
+echo "✅ Successfully built and deployed '$PROJECT_NAME' to '$TARGET_REPO_URL' branch '$TARGET_BRANCH'."
